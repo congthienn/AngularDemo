@@ -6,6 +6,7 @@ import { UserDetailModule } from './modules/user/user-detail/user-detail.module'
 import { UserAddModule } from './modules/user/user-add/user-add.module';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardModule } from './modules/dashboard/dashboard.module';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent

@@ -12,8 +12,7 @@ import { UsersModule } from '../user/users.module';
   imports: [
     CommonModule,
     BrowserModule,
-    FormsModule,
-    UsersModule
+    FormsModule
   ]
 })
 export class UserDetailModule { }
