@@ -13,9 +13,7 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     HttpClientModule,
-    UsersModule,
-    UserDetailModule,
-    UserAddModule,
+    UsersModule,  
     DashboardModule,
     AppRoutingModule
   ],

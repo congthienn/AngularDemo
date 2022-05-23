@@ -15,7 +15,8 @@ import { UsersModule } from '../user/users.module';
   imports: [
     FormsModule,
     CommonModule,
-    BrowserModule
+    BrowserModule,
+    UsersModule
   ]
 })
 export class UserAddModule { }

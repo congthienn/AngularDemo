@@ -17,6 +17,7 @@ import { UserAddModule } from '../user-add/user-add.module';
     FormsModule,
     BrowserModule,
     UsersRoutingModule
-  ]
+  ],
+  exports:[UserComponent]
 })
 export class UsersModule { }

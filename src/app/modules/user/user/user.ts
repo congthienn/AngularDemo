@@ -9,6 +9,7 @@ export interface user{
 export interface user_add{
     name:string,
     email:string,
+    password:string,
     phone:string,
     address:string,
     roleId:string

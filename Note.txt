@@ -22,18 +22,23 @@
 - OnInit
 - AppRoutingModule (redirect): ng generate module app-routing --flat --module=app
 - Router: https://angular.io/guide/router-tutorial-toh and https://angular.io/guide/router 
+
 	+ Create router : ng generate module name --flat --routing
+
 - Define module : https://angular.io/guide/architecture-modules
+
     + Create module: ng generate module name --flat
-	Note:  --flat Puts the file in src/app instead of its own folder.
-		 -module=app Tells the CLI to register it in the imports array of the AppModule.
+
+	Note:  --flat :Puts the file in src/app instead of its own folder.
+		 --module app :Tells the CLI to register it in the imports array of the AppModule.
+
 - <router-outlet></router-outlet>
 - routerLink
 - Transforming Data Using Pipes
-- tap? Benefit
+- Tap? Benefit
 - Form : https://angular.io/guide/forms
 - ngModel: Map data
 - Auto refresh after update data: Observable - Refresh a Component From Another
 	+ Subject: https://rxjs.dev/guide/subject
 	
-
+Build app using realtime: https://www.c-sharpcorner.com/article/real-time-angular-11-application-with-signalr-and-net-5/

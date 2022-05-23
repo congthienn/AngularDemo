@@ -15,7 +15,7 @@ export class UserDetailComponent implements OnInit {
   user: user | undefined;
   user_update: user_update | undefined;
   update: boolean = false;
-  constructor(private userService:UserService,private router:ActivatedRoute,private location:Location,private redirect:Router) { }
+  constructor(private userService:UserService,private router:ActivatedRoute,private redirect:Router) { }
 
   ngOnInit(): void {
     this.getUser();
@@ -23,12 +23,13 @@ export class UserDetailComponent implements OnInit {
   getUser():void{
     const id = String(this.router.snapshot.paramMap.get("id"));
     this.userService.getUser(id).subscribe(response => {
+        console.log(response);
         this.user = response.object;
     });
   }
   goBack():void {
     this.redirect.navigate(["/users"])
-  }
+  } 
   updateUser():void {
       this.update = true;
   }

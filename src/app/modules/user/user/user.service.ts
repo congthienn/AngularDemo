@@ -1,6 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, Subject, tap } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { user_update } from '../user-detail/user-update';
 import { user, user_add } from './user';
 
@@ -8,7 +9,7 @@ import { user, user_add } from './user';
   providedIn: 'root'
 })
 export class UserService {
-  private userURL = "https://localhost:44313/api/user";
+  private userURL = `${environment.baseUrl}/api/user`;
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };

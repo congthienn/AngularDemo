@@ -8,9 +8,9 @@ const routes: Routes = [
   { 
     path:"users",
     children:[
-      {path:"",component: UserComponent},
-      {path:"detail/:id",component:UserDetailComponent},
-      {path:"add",component:UserAddComponent},
+      { path:"",component: UserComponent },
+      { path:"detail/:id",component:UserDetailComponent },
+      { path:"add",component:UserAddComponent },
       // {path:"**",component:} Not found
     ]
   }

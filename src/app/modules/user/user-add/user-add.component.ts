@@ -14,6 +14,7 @@ export class UserAddComponent implements OnInit {
   user:user_add = {
     address:'',
     email:'',
+    password:'',
     phone:'',
     roleId:'K7N8D',
     name:''
@@ -29,6 +30,7 @@ export class UserAddComponent implements OnInit {
     this.user = {
       address:'',
       email:'',
+      password:'',
       phone:'',
       roleId:'K7N8D',
       name:''
