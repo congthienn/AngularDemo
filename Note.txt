@@ -21,9 +21,10 @@
 - @Injectable: DI
 - OnInit
 - AppRoutingModule (redirect): ng generate module app-routing --flat --module=app
+
 - Router: https://angular.io/guide/router-tutorial-toh and https://angular.io/guide/router 
 
-	+ Create router : ng generate module name --flat --routing
+	+ Create module and children router: ng generate module name --flat --routing
 
 - Define module : https://angular.io/guide/architecture-modules
 
