@@ -5,6 +5,7 @@ import { UsersRoutingModule } from './users-routing.module';
 import { FormsModule } from '@angular/forms';
 import { UserComponent } from './user.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { UserService } from './user.service';
 
 
 @NgModule({
@@ -17,6 +18,10 @@ import { BrowserModule } from '@angular/platform-browser';
     BrowserModule,
     UsersRoutingModule
   ],
-  exports:[UserComponent]
+  exports:[UserComponent],
+  providers:[]
+
+
+  
 })
 export class UsersModule { }

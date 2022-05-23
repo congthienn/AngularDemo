@@ -4,9 +4,10 @@ import { Observable, Subject, tap } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { user_update } from '../user-detail/user-update';
 import { user, user_add } from './user';
+import { UsersModule } from './users.module';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class UserService {
   private userURL = `${environment.baseUrl}/api/user`;
